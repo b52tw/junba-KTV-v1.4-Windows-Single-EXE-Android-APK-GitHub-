@@ -1,0 +1,11 @@
+峻爸 KTV 多文字軌核對器 v1.4
+
+1. Android DOCX/Word 解析重做：支援表格時間範圍與 inline [HH:MM:SS] 單點時間碼。
+2. 單點時間碼區間會自動切成句子並依文字長度估算時間，改善 KTV 對位。
+3. Android 新增「目前句」提示列。
+4. Android 文字尺寸改由程式控制，降低手機系統超大字型造成的破版；新增 A− / A+。
+5. Android 15+ system bars insets，避免內容壓到狀態列。
+6. KTV 顏色改為淺藍目前句＋黃色播放進度。
+7. Windows 比較文字軌改成預設收合，未比較時隱藏比較欄。
+8. Windows 也支援 inline 單點時間碼 Word/TXT 的細分對位。
+9. 維持完全離線，不含 Gemini。

@@ -1,0 +1,6 @@
+1. 將此 ZIP 解壓後，把內容上傳到新的或既有 GitHub Repository 根目錄。
+2. 確認 Workflow 位於：.github/workflows/build-windows-android-v1.4.yml
+3. Commit 到 main/master 後進入 Actions。
+4. 成功後下載：
+   - Junba-KTV-MultiTrack-v1.4-Single-EXE-Windows-x64
+   - Junba-KTV-MultiTrack-v1.4-Android-APK

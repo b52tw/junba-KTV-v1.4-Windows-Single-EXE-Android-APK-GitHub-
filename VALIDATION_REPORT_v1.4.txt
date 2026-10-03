@@ -1,0 +1,13 @@
+峻爸 KTV v1.4 驗證報告
+
+Windows：
+- python compileall：通過
+- pytest：16 passed
+- 新增 inline 單點時間碼解析測試：通過
+
+Android 靜態／核心驗證：
+- TrackParser + Models + Review 使用 kotlinc 與 Android/JSON API stub 編譯：通過
+- DOCX 表格與 [HH:MM:SS] 單點時間碼解析邏輯已加入
+- MainActivity 已移除 Gemini，新增固定字級、A-/A+、Insets、目前句提示與雙區跟隨
+
+最終 Android APK 仍需由 GitHub Actions 的 Android SDK 執行 compileDebugKotlin / assembleDebug 或 assembleRelease，該 Workflow 已保留先編譯 Kotlin 再組 APK 的檢查順序。
